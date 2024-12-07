@@ -1,0 +1,132 @@
+.header, footer, .container {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.header h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: flex-start;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 18px;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+}
+.title h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.title p {
+
+    margin-top: -24px;
+}
+.container button,
+.signup button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 800;
+    padding: 8px;
+    width: 100px;
+    border-radius: 8px;
+    border-style: none;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 24px;
+}
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info img {
+    width: 100px;
+    height: 100px;
+}
+.info .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.quote {
+    display: flex;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: light italic;
+    padding: 100px 100px;
+    text-align: center;
+}
+#author {
+    display: flex;
+    justify-content: end;
+    padding-top: 16px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px;
+    padding: 16px 42px;
+    gap: 16px;
+    border-radius: 12px;
+}
+.signup .text {
+    display: flex;
+    flex-direction: column;
+}
+.signup .text p {
+    margin-top: 0;
+}
+.signup .text h4 {
+    margin-bottom: 0;
+}
+
+.signup button {
+    border-color: #f9faf8;
+    border-style: groove;
+    height: 42px;
+    align-self: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-weight: 900;
+}
